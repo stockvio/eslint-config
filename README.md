@@ -4,7 +4,7 @@ Prettier & Typescript ready config for ESLint, along with a few rules to match
 Stockvio's coding standards and style.
 
 ## Usage
-*Be sure to have [eslint](https://github.com/eslint/eslint) and [typescript](https://github.com/microsoft/TypeScript) installed first*
+*Be sure to have [eslint](https://github.com/eslint/eslint), [typescript](https://github.com/microsoft/TypeScript) and [prettier](https://github.com/prettier/prettier) installed first*
 <br/>
 
 Install eslint-config-stockvio:
