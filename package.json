@@ -3,18 +3,27 @@
   "description": "ESLint config using Stockvio's coding standards",
   "version": "1.0.0",
   "main": "index.js",
+  "license": "MIT",
   "author": {
     "name": "Fernando Picoral",
     "email": "fernandopicoral@gmail.com",
     "url": "https://fernandopicoral.com"
   },
+  "scripts": {
+    "test": "exit 0"
+  },
+  "homepage": "https://github.com/stockvio/eslint-config-stockvio",
   "repository": "https://github.com/stockvio/eslint-config-stockvio",
+  "bugs": "https://github.com/stockvio/eslint-config-stockvio/issues",
   "keywords": [
     "stockvio",
     "eslint",
     "eslintconfig"
   ],
-  "peerDependencies": {},
+  "peerDependencies": {
+    "eslint": ">=7",
+    "typescript": ">=4"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": ">=4.21.0",
     "@typescript-eslint/parser": ">=4.21.0",
