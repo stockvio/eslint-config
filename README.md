@@ -20,7 +20,7 @@ Then, add eslint-config-stockvio to the "extends" array in your `.eslintrc.*` fi
 {
   "extends": [
     "some-other-config-you-use",
-    "stockvio"
+    "@stockvio"
   ]
 }
 ```
