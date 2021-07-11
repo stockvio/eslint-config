@@ -1,18 +1,16 @@
 module.exports = {
     parser: "@typescript-eslint/parser",
     env: {
-        browser: true,
-        es6: true,
-        node: true,
+        es6: true
     },
-    ignorePatterns: ["node_modules", ".next", "out", "build", "dist"],
+    ignorePatterns: ["node_modules", ".next", "out", "build", "dist", "coverage"],
     extends: [
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
         "prettier",
         "plugin:prettier/recommended", // Has to be the last extension
     ],
-    plugins: ["react", "@typescript-eslint", "prettier"],
+    plugins: ["@typescript-eslint", "prettier"],
     rules: {
         "prettier/prettier": [
             "error",

@@ -1,23 +1,16 @@
 {
   "name": "@stockvio/eslint-config",
   "description": "ESLint config using Stockvio's coding standards",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "main": "index.js",
   "license": "MIT",
-  "author": {
-    "name": "Fernando Picoral",
-    "email": "fernandopicoral@gmail.com",
-    "url": "https://fernandopicoral.com"
-  },
-  "scripts": {
-    "test": "exit 0"
-  },
-  "homepage": "https://github.com/stockvio/eslint-config-stockvio",
+  "author": "@stockvio",
+  "homepage": "https://github.com/stockvio/eslint-config",
   "repository": {
     "type": "git",
-    "url": "https://github.com/stockvio/eslint-config-stockvio.git"
+    "url": "https://github.com/stockvio/eslint-config.git"
   },
-  "bugs": "https://github.com/stockvio/eslint-config-stockvio/issues",
+  "bugs": "https://github.com/stockvio/eslint-config/issues",
   "keywords": [
     "stockvio",
     "eslint",
@@ -25,6 +18,7 @@
   ],
   "peerDependencies": {
     "eslint": ">=7",
+    "eslint-plugin-react": "^7.24.0",
     "typescript": ">=4"
   },
   "dependencies": {
@@ -32,7 +26,6 @@
     "@typescript-eslint/parser": ">=4.21.0",
     "eslint-config-prettier": ">=8.1.0",
     "eslint-plugin-prettier": ">=3.3.1",
-    "eslint-plugin-react": ">=7.23.1",
     "prettier": ">=2.2.1"
   }
 }
