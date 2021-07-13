@@ -35,9 +35,8 @@ Last, you will need to make a few additions your eslint config. It should look l
 {
   "extends": ["@stockvio"],
   "env": {
-    "browser": true,
-    "es6": true
+    "browser": true
   },
-  "plugins": ["react", "@typescript-eslint", "prettier"]
+  "plugins": ["react"]
 }
 ```
