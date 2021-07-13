@@ -56,7 +56,7 @@ module.exports = {
         "no-label-var": "error",
         "lines-between-class-members": "error",
         "max-lines": "warn",
-        "multiline-comment-style": "error",
+        "multiline-comment-style": "off",
         "no-array-constructor": "error",
         "no-bitwise": "error",
         "no-lonely-if": "error",
