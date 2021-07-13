@@ -55,7 +55,7 @@ module.exports = {
         radix: "warn",
         "require-await": "error",
         "no-label-var": "error",
-        "lines-between-class-members": "error",
+        "lines-between-class-members": "off",
         "max-lines": "warn",
         "multiline-comment-style": "off",
         "no-array-constructor": "error",
