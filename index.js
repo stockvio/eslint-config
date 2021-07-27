@@ -10,7 +10,7 @@ module.exports = {
         "prettier",
         "plugin:prettier/recommended",
     ],
-    plugins: ["@typescript-eslint", "prettier"],
+    plugins: ["@typescript-eslint", "prettier", "simple-import-sort"],
     rules: {
         "prettier/prettier": [
             "error",
@@ -35,11 +35,13 @@ module.exports = {
         ],
         "@typescript-eslint/explicit-module-boundary-types": "off",
         "@typescript-eslint/explicit-function-return-type": "error",
+        "simple-import-sort/imports": "error",
+        "simple-import-sort/exports": "error",
         "array-callback-return": "error",
         "consistent-return": "error",
         "default-case": "error",
         "default-case-last": "error",
-        eqeqeq: "error",
+        "eqeqeq": "error",
         "no-empty": "error",
         "no-eval": "error",
         "no-implicit-globals": "error",
@@ -52,7 +54,7 @@ module.exports = {
         "no-throw-literal": "error",
         "no-unmodified-loop-condition": "error",
         "no-useless-concat": "error",
-        radix: "warn",
+        "radix": "warn",
         "require-await": "error",
         "no-label-var": "error",
         "lines-between-class-members": "off",
@@ -76,7 +78,6 @@ module.exports = {
         "prefer-const": "error",
         "prefer-rest-params": "error",
         "prefer-spread": "error",
-        "prefer-template": "error",
-        "sort-imports": "error"
+        "prefer-template": "error"
     },
 };
