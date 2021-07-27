@@ -8,7 +8,7 @@ module.exports = {
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
         "prettier",
-        "plugin:prettier/recommended", // Has to be the last extension
+        "plugin:prettier/recommended",
     ],
     plugins: ["@typescript-eslint", "prettier"],
     rules: {
@@ -77,5 +77,6 @@ module.exports = {
         "prefer-rest-params": "error",
         "prefer-spread": "error",
         "prefer-template": "error",
+        "sort-imports": "error"
     },
 };
