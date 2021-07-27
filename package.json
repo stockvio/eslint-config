@@ -1,7 +1,7 @@
 {
   "name": "@stockvio/eslint-config",
   "description": "ESLint config using Stockvio's coding standards",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "main": "index.js",
   "license": "MIT",
   "author": "@stockvio",
