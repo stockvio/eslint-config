@@ -1,0 +1,27 @@
+name: Publish Private Package
+
+# We need to publish as a private package as well because
+# when setting the registry @stockvio, the package manager tries to download
+# @stockvio/eslint-config from GitHub as well, and there isn't an easy way to have
+# multiple registries for the same scope
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  publish:
+    name: 🔒 Publish Private
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 12
+          registry-url: https://npm.pkg.github.com/
+      - run: yarn install --immutable
+      - run: yarn build
+      - run: yarn publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
