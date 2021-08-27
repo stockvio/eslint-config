@@ -92,6 +92,6 @@ module.exports = {
         'prefer-spread': 'error',
         'prefer-template': 'error',
         '@typescript-eslint/strict-boolean-expressions': 'warn',
-        'no-unused-vars': ['warn', {'argsIgnorePattern': '^_.*'}]
+        'no-unused-vars': ['warn', {'argsIgnorePattern': '^_'}]
     }
 };
