@@ -66,7 +66,7 @@ module.exports = {
         'no-throw-literal': 'error',
         'no-unmodified-loop-condition': 'error',
         'no-useless-concat': 'error',
-        radix: 'warn',
+        radix: 'off',
         'require-await': 'error',
         'no-label-var': 'error',
         'lines-between-class-members': 'off',
@@ -90,6 +90,8 @@ module.exports = {
         'prefer-const': 'error',
         'prefer-rest-params': 'error',
         'prefer-spread': 'error',
-        'prefer-template': 'error'
+        'prefer-template': 'error',
+        '@typescript-eslint/strict-boolean-expressions': 'warn',
+        'no-unused-vars': ['warn', {'argsIgnorePattern': '^_.*'}]
     }
 };
